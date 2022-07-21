@@ -14,7 +14,7 @@ function Timeline() {
                         <br />
                         22<sup>nd</sup> of Zil-Hajjah, 1443,
                         <br />
-                        Time: 02:00 PM.
+                        Time: 07:30 PM.
                     </p>
                     <h2>Venue:</h2>
                     <p>
