@@ -1,0 +1,68 @@
+/* Big Screens */
+#timeline {
+    padding: 7% 7%;
+    color: #002c6a;
+}
+
+#timeline .wrapper {
+    display: block;
+    border: 10px solid #002c6a;
+    border-radius: 5px;
+}
+
+#timeline .content {
+    display: block;
+    margin: 10px;
+    padding: 3% 10%;
+    border: 2px solid #002c6a;
+    border-radius: 5px;
+}
+
+#timeline h1.inshaallaah {
+    font-family: "Great vibes", cursive;
+}
+
+#timeline h1 {
+    line-height: 2;
+    font-size: 2.5rem;
+    font-family: "Tangerine", cursive;
+}
+
+#timeline h2 {
+    font-family: "Great Vibes", cursive;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#timeline p {
+    font-size: 1.25rem;
+    color: #002c6ad1;
+    line-height: 1.4;
+}
+
+/* Tablet Wide Screens */
+@media (max-width: 992px) {
+}
+
+/* New Mobile Phones Wide Screens */
+@media (max-width: 428px) {
+    #timeline {
+        padding: 7% 10%;
+    }
+    #timeline .wrapper {
+        border: 5px solid #002c6a;
+    }
+    #timeline h1 {
+        font-size: 1.5rem;
+    }
+    #timeline p {
+        font-size: 12px;
+    }
+    #timeline h2 {
+        font-size: 1.2rem;
+    }
+}
+
+/* Old Mobile Phones Wide Screens */
+@media (max-width: 360px) {
+}

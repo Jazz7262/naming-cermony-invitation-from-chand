@@ -1,0 +1,113 @@
+/* Big Screens */
+
+/* Baby Info */
+#baby-info {
+    padding: 7% 7% 0;
+    text-align: center;
+    color: #002c6a;
+}
+
+#baby-info .title-quote {
+    font-size: 3.5rem;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #002c6a;
+    font-family: "Amiri", serif;
+}
+
+#baby-info .wrapper {
+    padding: 7% 0;
+}
+
+#baby-info .img-wrapper {
+    display: inline-block;
+    border: 5px solid #002c6a;
+    border-radius: 50%;
+    padding: 10px;
+    width: 35%;
+}
+
+#baby-info .baby-img {
+    border: 2px solid #002c6a;
+    border-radius: 50%;
+    width: 100%;
+}
+
+#baby-info .info {
+    margin-top: 7%;
+}
+
+#baby-info h3,
+#baby-info h4 {
+    font-family: "Roboto Slab", serif;
+}
+#baby-info h5 {
+    color: #002c6abd;
+}
+
+#baby-info .dob {
+    color: #002c6a;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px 0px 15px;
+    border: 2px solid #002c6a;
+    border-radius: 5px;
+}
+
+/* Carousel Buttons */
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23002c6a' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23002c6a' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+.carousel-indicators {
+    bottom: -80px;
+}
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #002c6a8c;
+}
+.carousel-indicators .active {
+    background-color: #002c6a;
+}
+
+/* Tablet Wide Screens */
+@media (max-width: 992px) {
+}
+
+/* New Mobile Phones Wide Screens */
+@media (max-width: 428px) {
+    #baby-info {
+        padding: 7% 10% 0;
+    }
+    #baby-info .title-quote {
+        font-size: 2.5rem;
+        padding-bottom: 10px;
+    }
+
+    #baby-info .img-wrapper {
+        width: 60%;
+    }
+    #baby-info .info {
+        margin-top: 15%;
+    }
+    #baby-info h3 {
+        font-size: 1.25rem;
+    }
+    #baby-info h4 {
+        font-size: 1rem;
+    }
+    #baby-info h5 {
+        font-size: 0.75rem;
+    }
+    /* Carousel Buttons */
+    .carousel-indicators {
+        bottom: -60px;
+    }
+}
+
+/* Old Mobile Phones Wide Screens */
+@media (max-width: 360px) {
+}

@@ -1,0 +1,36 @@
+/* Big Screens */
+#compliments {
+    padding: 7%;
+    color: #002c6a;
+}
+
+#compliments h1 {
+    line-height: 1.5;
+    font-family: "Great vibes", cursive;
+}
+
+#compliments h5 {
+    font-family: "Roboto Slab", serif;
+}
+
+/* Tablet Wide Screens */
+@media (max-width: 992px) {
+}
+
+/* New Mobile Phones Wide Screens */
+@media (max-width: 428px) {
+    #compliments {
+        padding: 7% 10%;
+    }
+    #compliments h1 {
+        font-size: 1.5rem;
+    }
+    #compliments h5 {
+        margin-bottom: 4px;
+        font-size: 0.75rem;
+    }
+}
+
+/* Old Mobile Phones Wide Screens */
+@media (max-width: 360px) {
+}

@@ -1,0 +1,39 @@
+/* Big Screens */
+/* Invite-note */
+#invite-note {
+    background-color: #002c6a;
+    padding: 7% 7%;
+    color: #f9f097;
+}
+
+#invite-note .from h2 {
+    font-family: "Roboto Slab", serif;
+    line-height: 1.5;
+}
+
+/* Tablet Wide Screens */
+@media (max-width: 992px) {
+}
+
+/* New Mobile Phones Wide Screens */
+@media (max-width: 428px) {
+    /* Invite-note */
+    #invite-note {
+        padding: 7% 10%;
+    }
+    #invite-note h2 {
+        font-size: 1.5rem;
+    }
+    #invite-note h5 {
+        line-height: 1.5;
+        font-size: 0.75rem;
+    }
+    #invite-note p {
+        font-size: 12px;
+        margin-bottom: 0px;
+    }
+}
+
+/* Old Mobile Phones Wide Screens */
+@media (max-width: 360px) {
+}
