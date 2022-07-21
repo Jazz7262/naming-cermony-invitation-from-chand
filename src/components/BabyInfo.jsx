@@ -3,7 +3,7 @@ import Duration from "duration-js";
 import "../styles/BabyInfo.css";
 
 function BabyInfo() {
-    const date1 = new Date("2022 7 22 2:00 PM");
+    const date1 = new Date("2022 7 22 7:30 PM");
     const date2 = new Date();
 
     const [duration, setDuration] = useState({});
